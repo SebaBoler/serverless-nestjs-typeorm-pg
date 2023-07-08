@@ -1,0 +1,14 @@
+@host= http://localhost:3000
+
+POST {{host}}/recordstatuses
+Content-Type: application/json
+
+{
+    "id": "34",
+    "name": "AWS3",
+    "viewSequence": "2"
+}
+
+###
+
+GET {{host}}/recordstatuses
